@@ -1,0 +1,62 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;  
+    
+}
+
+.input{
+    width: 350px;
+    height: 34px;
+}
+
+
+.btn_style{
+    width: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.register-form{
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 20px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    /* background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 2%, rgba(9, 121, 54, 0.8239495627352503) 19%, rgba(163, 255, 0, 1) 88%); */
+        background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+/*  */
+.login-form {
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 20px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    /* background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 2%, rgba(9, 121, 54, 0.8239495627352503) 19%, rgba(163, 255, 0, 1) 88%); */
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+
+.style_Login_button{
+    /* margin: 20px; */
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+     text-decoration: none;
+     color: black;
+}
+
+.style_Login_button:hover{
+    color: white;
+   
+     text-decoration: underline;
+}
