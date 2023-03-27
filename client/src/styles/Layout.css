@@ -1,0 +1,97 @@
+.main{
+    padding: 10px;
+    height: 100vh;
+    /* display: flex; */
+}
+
+.layout{
+    display: flex;
+}
+
+.sidebar{
+    min-height: 100%;
+    width: 300px;
+    border-radius: 10px;
+    /* background-color: rgb(90, 16, 16); */
+    box-shadow: 0 0 2px gray;
+    margin-right: 20px;
+    color: white;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.logo h6{
+    font-size: 35px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.menu{
+    margin-top: 50px;
+}
+.menu_item{
+    margin-top: 20px;
+}
+.menu_item a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem; 
+}
+.menu_item i{
+    margin: 0 15px;
+    font-size: 1.2rem;
+
+}
+
+
+.content{
+width: 100%;
+height: 100%;
+}
+
+.header{
+    height:10vh;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px gray;
+    background-color: white;
+}
+
+
+.body{
+    height: 90vh;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px gray;
+    background-color: white;
+}
+
+
+
+.active{
+    background-color: white;
+    /* color: #051937; */
+    padding: 10px;
+}
+
+.active a,i {
+    /* background-color: white; */
+    color: #051937;
+}
+
+
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    margin: 0 15px;
+}
+.header_content i{
+    font-size: 1.2rem;
+    margin-top: 3px;
+}
+.header_content a{
+    text-decoration: none;
+    color: #004d7a;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
